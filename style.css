@@ -30,7 +30,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 90%;
+
+    max-width: 900px;
     margin: auto;
 }
 
@@ -45,3 +46,4 @@ h1 {
     height: 200px;
     object-fit: cover;
 }
+
